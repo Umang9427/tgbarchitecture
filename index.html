@@ -1,0 +1,213 @@
+<!doctype html>
+<!--Margin auto centers items-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>TGBArchStudio</title>
+        
+<!--   **** Linking css file ****   -->
+        <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" >
+        
+<!-- *****************   Font Awesome favicons ******************-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">    
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<!--******************   Navigation Bar ***********************-->
+<body class="color">
+ <div class="background"> 
+   <div class="layer">   
+    <Nav>
+        <ul class ="top">
+          <li>
+            <a href="./index.html">
+            <img class="img-fluid" src="logo.png" width="120" height="140">
+            </a>
+          </li>
+          <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none; right:0;" id="rightMenu">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large" style="text-align: right; margin-top: 15px;">&#9776;</button>
+                <a href="./contact.html" class="navbutton w3-bar-item w3-button">Contact</a>
+                <a href="./about.html" class="navbutton w3-bar-item w3-button">About </a>
+                <a href="./services.html" class="navbutton w3-bar-item w3-button">Services</a>
+          </div>
+            
+            <li class="right"><a class="padnav" href="./services.html"><h5>Services</h5></a></li>
+            <li class="right"><a class="padnav" href="./about.html"><h5>About</h5></a></li>
+            <li class="right"><a class="padnav" href="./contact.html"><h5>Contact</h5></a></li>
+            <li class ="dropdown" ><a class="padnav" href="javascript:void(0);" onclick="openRightMenu()">&#9776;</a></li>
+        </ul>
+    </Nav>
+   <script>
+        function dropmenu(){
+            var x = document.getElementById("click");
+            if(x.className==="top"){
+                x.className += " response"; 
+            }else {
+                x.className = "top";
+            }
+        } 
+        function openRightMenu() {
+          document.getElementById("rightMenu").style.display = "block";
+        }
+
+        function closeRightMenu() {
+          document.getElementById("rightMenu").style.display = "none";
+        }  
+    </script>   
+    
+    <header>
+        <p class="header tgb"><b> TGBArchStudio </b> </p>    
+    </header> 
+        
+       <h5 class="workdone"> Architecture | Interior | 3D Visuals </h5>
+    <div class="buttons firstbuttons">
+      <button class="butn info" onclick="window.location.href='./services.html';"><h5 style="z-index: 0;">Services</h5></button>
+      <button class="butn info" onclick="window.location.href='./about.html';"><h5 style="z-index: 0;">About us</h5></button>
+    </div>
+    <div class="mobileimagemargin"></div>
+  </div><!--End of background opacity color-->
+</div> <!--End of background image-->>
+     
+
+
+
+
+<div class="background2">
+<div >
+  <h5 class="authentic" style="color: white;">Authentic and modern</h5>
+</div>
+<div>
+  <h2 class="threeimages" style="color: white;"> Our sample of 3D Images </h2>
+</div>
+
+
+<!-- ************** Section 2 *********************************-->
+
+
+
+
+<div class="row rowmargin">
+            <div class="col-lg-4 colpadding">
+            <!--  Offset means empty space at start -->
+                <a href="./exterior.html">
+                  <img class="imgpad" src="exterior4.png">
+                </a>
+                <div class="buttons">
+                <button class="butn imagebutton" onclick="window.location.href='./exterior.html';"><h5>Exterior Images</h5></button>
+                </div>
+            </div>
+            <div class="col-lg-4 colpadding">
+              <a href="./interior.html">
+                <img class="imgpad" src="interior4.jpg">
+              </a>
+              <div class="buttons">
+                <button class="butn imagebutton" onclick="window.location.href='./interior.html';"><h5>Interior Images</h5></button>
+              </div>
+            </div>
+            <div class="col-lg-4 colpadding">
+              <a href="./otherimages.html"> 
+                <img class="imgpad" src="unnamed (2).jpg">
+              </a>
+              <div class="buttons">
+                <button class="butn imagebutton" onclick="window.location.href='./otherimages.html';"><h5>Other Images</h5></button>
+              </div>
+            </div>
+        </div>
+       <br>
+       <br>
+       <br>
+  </div>
+   <!--Bckground2 end-->
+
+ 
+<div class="background3">
+ <div><h3 class="whyus" style="color: white;">Why Us?</h3></div>
+
+
+<!--**********************Text Section*************************-->
+<div class="row twocoltext">
+  <div class="col-sm-1">    
+  </div>
+  <div class="col-sm-4 onecoltext">
+    <h5 class="mobilecoltext">At TGBArchStudio, we always use architecture software, hence the work done is precise at mm levels. So, the final image can actually be imported in field of work.</h5>
+  </div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-4">
+    <h5 class="mobilecoltext">We Use high quality, good texture and from your demand we can also provide you texture images along with final image. </h5>
+  </div>
+  <div class="col-sm-1"></div>
+</div>
+<div class="row twocoltext">
+  <div class="col-sm-1">    
+  </div>
+  <div class="col-sm-4 onecoltext">
+    <h5 class="mobilecoltext">Work included : Modelling -> Material applying -> Rendering -> Post Production -> minor changes.</h5>
+  </div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-4">
+    <h5 class="mobilecoltext">We do not use readymade furniture but we create it according to space available. </h5>
+  </div>
+  <div class="col-sm-1"></div>
+</div>
+<div class="row lastcoltext">
+  <div class="col-sm-1">    
+  </div>
+  <div class="col-sm-4 onecoltext">
+    <h5 class="mobilecoltext">We provide upto 2 UHD 4k images in one package.</h5>
+  </div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-4">
+    <h5 class="mobilecoltext" style="padding-bottom: 40px;">No extra payment for minor changes. </h5>
+  </div>
+  <div class="col-sm-1"></div>
+</div>
+
+<div class="edgewave">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#87ceeb" fill-opacity="1" d="M0,192L80,176C160,160,320,128,480,128C640,128,800,160,960,192C1120,224,1280,256,1360,272L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+</div>
+</div>  <!--Background 3 end-->
+
+
+<!--&+*********************Footer****************************** -->
+<footer class="footer bg-inverse foot">
+    <div class="container-fluid">
+        <div class="row margintopfooter">
+          <div class="col-4"></div>
+          <div class="col-4 alignstuff">
+            <img class="img-fluid alignimage" src="logo.png"  width="140" height="200">  
+          </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row marginiconsfooter">
+          <div class="col-4"></div>
+          <div class="col-4 alignstuff">
+              <a href="https://facebook.com">
+              <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>  </a>
+              <a href="https://instagram.com">     
+              <i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
+              <a href="https://google.com">      
+              <i class="fab fa-google fa-2x" aria-hidden="true"></i></a>
+          </div>
+            <div class="col-4"></div>
+            <p class="marginbotfooter" style="color: white">Copyright &copy; TGBArchStudio</p>  
+        </div>
+  </div>
+</footer>
+
+
+
+     
+<script type="text/javascript" src="javascript.js"></script>  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+ </body>    
+</html>
+

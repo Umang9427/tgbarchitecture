@@ -1,0 +1,380 @@
+nav, header, footer{
+    display: block;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+fieldset,img { 
+    border:0;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+.color{
+    background-color: rgba(9, 33, 56, 0.5);
+    font-family: "Times New Roman", Times, serif;
+}
+.background { 
+    width: 100%;
+    height: 110%; 
+    min-width: 100%; 
+    min-height: 100%; 
+    position: relative;
+    margin:0;  
+ } 
+.background::before{
+    background-image: url("exterior12.png");
+    background-position: center ;   
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    z-index: -2;
+    opacity: 0.7;
+}
+.background::after { 
+    background-color: rgb(185, 154, 12); 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    height: 110%; 
+    z-index: -1; 
+    opacity: 0.7;
+ } 
+/*.layer{
+    
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 110%;
+}*/
+nav{
+    width: 100%;
+    margin: 0px;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;   
+}
+.padnav{
+    text-decoration: none;
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+.navbutton{
+    font-size: 20px;
+}
+.navbutton:hover{
+    text-decoration: none;
+}
+.header {
+    padding-top: 200px;
+    font-size: 68px;
+    text-align: center;
+    color: white; 
+}
+
+.tgb{
+    font-size: 62px;
+    color: rgb(255, 255, 255);
+    z-index: 0;
+}
+.workdone{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+    z-index: 0;
+    color: white;
+}
+ul.top li{
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+}
+
+ul.top li.right{
+    float: right;
+}
+
+
+ul.top li a:hover {
+    text-decoration: none;
+    color: purple;
+}
+ul.top li.dropdown {
+    display: none;
+}
+.buttons{
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.butn {
+    border: 2px solid black;
+    background-color: transparent;
+    color: white;
+    padding: 6px 43px;
+    margin-right: 38px;
+    margin-left: 38px;
+    cursor: pointer;
+}
+.info {
+    border-color: white;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 260px;
+}
+
+.info:hover {
+    background: purple;
+    border-color: purple;
+    color: white;
+}
+
+.background2{
+    background-color: #DCAE96;
+}
+.imagebutton {
+    border-color: white;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 15px;
+}
+.imagebutton:hover {
+    background: purple;
+    border-color: purple;
+    color: white;
+}
+.authentic{
+    padding-top: 250px;
+    text-align: center;
+    align-content: center;
+    
+}
+.threeimages{
+    text-align: center;
+    align-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.rowmargin{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.colpadding{
+    text-align: center;
+}
+.imgpad{
+    width: 470px;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    opacity: 0.7;
+}
+.imgpad:hover{
+    opacity: 1;
+}
+.whyus{
+    padding-top: 300px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.twocoltext{
+    margin-bottom: 70px;
+}
+.mobilecoltext{
+    text-align: justify;
+}
+.lastcoltext{
+    margin-bottom: 200px;
+}
+.background3{
+    background-color: skyblue;
+    color: black;
+}
+
+.imagefooter{
+    height:10px;
+    width:10px;
+    align-content: center;
+    position: absolute;
+}
+.margintopfooter{
+    padding-top: 80px;
+}
+.marginiconsfooter{
+    padding-top: 20px;
+}
+.alignstuff{
+    text-align: center;
+    display: block;
+}
+.marginbotfooter{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+.edgewave{
+    height: 40px;
+}
+
+/*Page- About CSS*/
+.aboutheading{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.abouttgb {
+   text-decoration: none;
+   color: white    ;
+}
+.abouttgb:hover{
+   text-decoration: none;
+   color: purple;
+}
+.abouttext{
+   margin-right: 10px;
+}
+.aboutfont{
+   font-size: 30px;
+   padding-bottom: 100px;
+}
+
+/*Services CSS*/
+.servicesheading{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+.contactheading{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.address{
+    background-color: white;
+}
+
+
+@media screen and (max-width: 680px) {
+    ul.top li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.top li.dropdown {
+        display: block;
+        float: right;
+    }
+    .tgb{
+        font-size: 30px;
+    }
+    .imgpad{
+        opacity: 1;
+    }  
+    .nav{
+        position: absolute;
+    }
+    .edgewave{
+        height: 20px;
+    }
+    .marginbotfooter{
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+    .aboutfont{
+        font-size: 20px;
+    }
+    .info{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .mobileimagemargin{
+        padding: 100px
+    }
+    .onecoltext{
+        margin-bottom: 70px;
+    }
+    .mobilecoltext{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contactmaps{
+        margin-top: 100px;
+    }
+    .margintopfooter{
+        padding-top: 0px;
+    }
+    
+}
+
+ul.top.response {
+    position: relative;
+}
+ul.top.response li.dropdown{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul.top.response li {
+    display: inline;
+    float: none;  
+}
+ul.top.response li a.padnav {
+    display: block;
+    text-align: right; 
+}
+
+
+
+.foot {
+     background: #191970;    
+    /* background: -webkit-linear-gradient(skyblue,#191970); */
+}
+.fa-facebook-square {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}
+
+.fa-google {
+    color: white;
+}
+.fa-facebook-square:hover {
+    color: blue;
+}
+.fa-instagram:hover {
+    color: pink;
+}
+.fa-google:hover {
+    color: red;
+}
+
+
+
+
+
+
+ 
+
+
+
+
